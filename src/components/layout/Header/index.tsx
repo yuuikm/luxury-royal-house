@@ -1,10 +1,18 @@
 import type { FC } from 'react';
+import { Link } from 'react-router-dom';
+import companyLogo from 'assets/react.svg';
 
 const index: FC = () => (
-  <div className="containe">
-    <div className="header">
-<h1>test
-</h1>
+  <div className="container header">
+    <img className="logo" src={companyLogo} />
+    <div className="header-content">
+      <nav className="header-menu">
+        <ul>
+          <li>
+            <Link to="#">Test</Link>
+          </li>
+        </ul>
+      </nav>
     </div>
   </div>
 );
