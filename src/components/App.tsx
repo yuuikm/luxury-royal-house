@@ -1,9 +1,9 @@
 import type { FC } from 'react';
-import Header from 'components/layout/Header';
+import IntroSection from 'components/IntroSection';
 
 const App: FC = () => (
   <>
-    <Header />
+    <IntroSection />
   </>
 );
 
