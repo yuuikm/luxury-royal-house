@@ -1,10 +1,12 @@
 // libraries
 import { type FC } from 'react';
 import SmTitle from 'components/shared/SmTitle';
-import { INTRO_SECTION_TEXTS } from 'constants/texts.ts';
-import IntroImage from '../../../public/images/home-pic-1-774x1200.webp';
+import { useTranslation } from 'react-i18next';
+import IntroImage from 'assets/images/home-pic-1-774x1200.webp';
 
 const IntroSection: FC = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="container">
       <div className="intro-section-wrapper">
@@ -13,7 +15,9 @@ const IntroSection: FC = () => {
         </div>
         <div className="intro-info-section">
           <SmTitle />
-          <h3 className="intro-title">{INTRO_SECTION_TEXTS.titleText}</h3>
+          <h3 className="intro-title">{t('intro.title')}</h3>
+          <h4 className="second-title">{t('intro.subtitle')}</h4>
+          <p className="intro-description">{t('intro.description')}</p>
         </div>
       </div>
     </div>

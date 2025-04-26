@@ -3,7 +3,7 @@
   padding: 100px 0;
 
   .intro-image-section {
-    padding: 0 70px;
+    padding: 0 20px;
   }
 
   .intro-info-section {
@@ -17,5 +17,18 @@
     font-weight: 700;
     letter-spacing: -1px;
     padding: 25px 0 100px 0;
+  }
+
+  .second-title {
+    color: $c-intro-second-title-text;
+    padding-bottom: 30px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+  }
+
+  .intro-description {
+    color: $c-intro-description-text;
+    font-size: 16px;
   }
 }
