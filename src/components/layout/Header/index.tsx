@@ -1,20 +1,29 @@
 import type { FC } from 'react';
 import { Link } from 'react-router-dom';
-import companyLogo from 'assets/react.svg';
+import companyLogo from 'assets/logo.webp';
+import { useHeaderMenu } from 'components/layout/Header/config';
+import LanguageSwitcher from 'components/layout/Header/LanguageSwitcher';
 
-const index: FC = () => (
-  <div className="container header">
-    <img className="logo" src={companyLogo} />
-    <div className="header-content">
-      <nav className="header-menu">
-        <ul>
-          <li>
-            <Link to="#">Test</Link>
-          </li>
-        </ul>
-      </nav>
+const Header: FC = () => {
+  const headerMenu = useHeaderMenu();
+
+  return (
+    <div className="container header">
+      <img className="logo" src={companyLogo} />
+      <>
+        <nav>
+          <ul className="header-menu">
+            {headerMenu.map(({ id, text, route }) => (
+              <li key={id} className="header-menu-item">
+                <Link to={route}>{text}</Link>
+              </li>
+            ))}
+          </ul>
+          <LanguageSwitcher />
+        </nav>
+      </>
     </div>
-  </div>
-);
+  );
+};
 
-export default index;
+export default Header;

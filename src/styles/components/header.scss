@@ -2,4 +2,27 @@
   display: flex;
   background-color: $c-header-bg;
   justify-content: space-between;
+
+  .logo {
+    width: 190px;
+    padding: 10px 0;
+  }
+
+  .header-menu {
+    color: $c-header-text;
+    font-size: 15px;
+    display: flex;
+
+    @media (max-width: $screen-sm-max) {
+      display: none;
+    }
+
+    .header-menu-item {
+      padding: 35px 20px;
+    }
+  }
+}
+
+.lang-switcher {
+  color: $c-header-text;
 }
