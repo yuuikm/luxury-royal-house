@@ -23,6 +23,11 @@ const resources = {
         subtitle: 'Luxury Royal House',
         description:
           'Our mission is to create exclusive and sophisticated renovations that reflect the luxury, personality and aesthetic of each client.',
+        projects: '500',
+        projectsText: 'Exclusive projects',
+        years: '22',
+        yearsText: 'Years of experience',
+        buttonText: 'Contact us to create your ideal space!',
       },
     },
   },
@@ -41,6 +46,11 @@ const resources = {
         subtitle: 'Luxury Royal House',
         description:
           'Наша миссия — создавать эксклюзивные и утончённые ремонты, отражающие роскошь, индивидуальность и эстетику каждого клиента.',
+        projects: '500',
+        projectsText: 'Эксклюзивных проектов',
+        years: '22',
+        yearsText: 'Года опыта',
+        buttonText: 'Свяжитесь с нами!',
       },
     },
   },

@@ -1,0 +1,16 @@
+.btn-link {
+  padding: 16px 32px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.secondary {
+  background-color: transparent;
+  border: 2px solid $c-button-border;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: $c-button-secondary-hover;
+    border: 2px solid $c-button-secondary-hover;
+  }
+}
