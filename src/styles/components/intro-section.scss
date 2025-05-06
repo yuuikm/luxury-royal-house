@@ -3,21 +3,28 @@
 }
 
 .intro-section-wrapper {
-  display: flex;
   padding: 100px 0;
+  display: flex;
 
   .intro-image-section {
-    text-align: center;
-    flex-basis: 60%;
+    flex-basis: 55%;
+    margin-right: 35px;
+    background-image: url('assets/images/home-pic-1-774x1200.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-    .intro-image {
-      width: 70%;
+    @media (max-width: $screen-sm-max) {
+      display: none;
     }
   }
 
   .intro-info-section {
-    flex-basis: 40%;
-    padding-right: 100px;
+    flex-basis: 45%;
+
+    @media (max-width: $screen-sm-max) {
+      flex-basis: 100%;
+    }
   }
 
   .intro-title {
@@ -45,7 +52,7 @@
 
   .intro-counter-projects {
     border-top: 1px solid $c-intro-section-counter-border;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
 
     .counter-item {
       display: flex;

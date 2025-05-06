@@ -2,7 +2,6 @@
 import { type FC } from 'react';
 import SmTitle from 'components/shared/SmTitle';
 import { useTranslation } from 'react-i18next';
-import IntroImage from 'assets/images/home-pic-1-774x1200.webp';
 import { useIntroSectionCounter } from 'components/IntroSection/config.ts';
 import CountUp from 'react-countup';
 import LinkButton from 'components/shared/LinkButton';
@@ -14,9 +13,7 @@ const IntroSection: FC = () => {
   return (
     <div className="container intro-bg">
       <div className="intro-section-wrapper">
-        <div className="intro-image-section">
-          <img src={IntroImage} alt={IntroImage} className="intro-image" />
-        </div>
+        <div className="intro-image-section"></div>
         <div className="intro-info-section">
           <SmTitle />
           <h3 className="intro-title">{t('intro.title')}</h3>

@@ -52,6 +52,7 @@ const resources = {
         yearsText: 'Года опыта',
         buttonText: 'Свяжитесь с нами!',
       },
+      callToActionHome: {},
     },
   },
 };
