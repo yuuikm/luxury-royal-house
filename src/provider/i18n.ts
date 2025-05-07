@@ -29,6 +29,12 @@ const resources = {
         yearsText: 'Years of experience',
         buttonText: 'Contact us to create your ideal space!',
       },
+      callToActionHome: {
+        highlighted: 'A company ',
+        title: 'that has been specializing in premium repair work for over 22 years.',
+        quote: 'Luxurious interior design for your home.',
+        callToAction: 'OUR WORKS',
+      },
     },
   },
   ru: {
@@ -52,7 +58,12 @@ const resources = {
         yearsText: 'Года опыта',
         buttonText: 'Свяжитесь с нами!',
       },
-      callToActionHome: {},
+      callToActionHome: {
+        highlighted: 'Компания, ',
+        title: 'которая специализируется на ремонтных работах премиум-класса более 22 лет.',
+        quote: 'Роскошный интерьер вашего дома.',
+        callToAction: 'НАШИ РАБОТЫ',
+      },
     },
   },
 };

@@ -6,4 +6,23 @@
   display: flex;
   justify-content: space-between;
   padding: 100px 0;
-}
+
+  .call-to-action-title-wrapper{
+    flex-basis: 30%;
+  }
+
+  .call-to-action-quote {
+    flex-basis: 20%;
+  }
+
+  .call-to-action-title {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: $c-call-to-action-title;
+
+    .call-toaction-highlighted {
+      color: $c-call-to-action-highlighted;
+    }
+  }
+ }
