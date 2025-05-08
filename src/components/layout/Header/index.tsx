@@ -9,7 +9,7 @@ const Header: FC = () => {
 
   return (
     <div className="container header">
-      <img className="logo" src={companyLogo} />
+      <img className="logo" src={companyLogo} alt={companyLogo} />
       <>
         <nav>
           <ul className="header-menu">
@@ -18,8 +18,8 @@ const Header: FC = () => {
                 <Link to={route}>{text}</Link>
               </li>
             ))}
+            <LanguageSwitcher />
           </ul>
-          <LanguageSwitcher />
         </nav>
       </>
     </div>

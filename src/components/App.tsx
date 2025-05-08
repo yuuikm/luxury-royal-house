@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import IntroSection from 'components/IntroSection';
 import ActionBlock from 'components/shared/ActionBlock';
 import Slider from 'components/Slider';
+import BottomBanner from 'components/shared/BottomBanner';
 
 const App: FC = () => {
   const { t } = useTranslation();
@@ -16,6 +17,10 @@ const App: FC = () => {
         highlighted={t('callToActionHome.highlighted')}
         quote={t('callToActionHome.quote')}
         callToAction={t('callToActionHome.callToAction')}
+      />
+      <BottomBanner
+        title={t('bottomBannerHome.title')}
+        buttonText={t('bottomBannerHome.buttonText')}
       />
     </>
   );

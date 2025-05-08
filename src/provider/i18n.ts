@@ -35,6 +35,10 @@ const resources = {
         quote: 'Luxurious interior design for your home.',
         callToAction: 'OUR WORKS',
       },
+      bottomBannerHome: {
+        title: 'Your Vision, Our Masterpiece',
+        buttonText: 'REQUEST A QUOTE',
+      },
     },
   },
   ru: {
@@ -63,6 +67,10 @@ const resources = {
         title: 'которая специализируется на ремонтных работах премиум-класса более 22 лет.',
         quote: 'Роскошный интерьер вашего дома.',
         callToAction: 'НАШИ РАБОТЫ',
+      },
+      bottomBannerHome: {
+        title: 'Ваше видение — наше произведение искусства',
+        buttonText: 'ЗАПРОСИТЬ СМЕТУ',
       },
     },
   },
