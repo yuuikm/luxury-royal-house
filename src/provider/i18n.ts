@@ -39,6 +39,15 @@ const resources = {
         title: 'Your Vision, Our Masterpiece',
         buttonText: 'REQUEST A QUOTE',
       },
+      footer: {
+        title: 'Need help?',
+        phone: '056 656 0888',
+        address:
+          "Iris Bay Tower, 145 Al Mustaqbal Street, Business Bay, Za'abeel, Dubai, 29th Floor",
+        buttonText: 'CONTACT US',
+        credits: '©2024 - 2025 | All Rights Reserved',
+        usefulLinks: 'Useful links',
+      },
     },
   },
   ru: {

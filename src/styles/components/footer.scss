@@ -1,4 +1,69 @@
+.footer-bg {
+  border-top: 1px solid $c-footer-border;
+  background-image: url('assets/images/architect6-footer-bg.svg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
 .footer-menu {
   display: flex;
   justify-content: space-between;
+  padding: 100px 0;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+    background-color: $c-footer-border;
+    transform: translateX(-50%);
+  }
+
+  .footer-info {
+    .footer-info-title {
+      font-size: 24px;
+      font-weight: 400;
+      color: $c-footer-title-text;
+      padding-bottom: 15px;
+    }
+
+    .footer-phone {
+      display: inline-block;
+      font-size: 32px;
+      font-weight: 700;
+      color: $c-footer-phone-text;
+      padding-bottom: 30px;
+    }
+
+    .footer-address {
+      font-size: 16px;
+      color: $c-footer-adress-text;
+      padding-bottom: 50px;
+    }
+  }
+
+  .footer-nav-menu {
+    .footer-nav-menu-item{
+      font-size: 15px;
+      font-weight: 500;
+      padding: 10px 0;
+    }
+  }
+
+  .useful-links-title {
+    font-size: 28px;
+  }
+}
+
+.footer-credits {
+  border-top: 1px solid $c-footer-border;
+
+  .credits-text {
+    color: $c-footer-credits-text;
+    font-size: 16px;
+    padding: 40px 0;
+  }
 }
