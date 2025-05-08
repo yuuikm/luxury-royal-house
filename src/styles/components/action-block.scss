@@ -12,7 +12,15 @@
   }
 
   .call-to-action-quote {
+    text-align: right;
     flex-basis: 20%;
+
+    .quote-text {
+      font-size: 21px;
+      display: block;
+      font-style: italic;
+      padding-bottom: 25px;
+    }
   }
 
   .call-to-action-title {

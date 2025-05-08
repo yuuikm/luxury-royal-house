@@ -1,6 +1,7 @@
 // libraries
 import { type FC } from 'react';
 import SmTitle from 'components/shared/SmTitle';
+import LinkButton from 'components/shared/LinkButton';
 
 type ActionBlockProps = {
   title: string;
@@ -20,8 +21,8 @@ const ActionBlock: FC<ActionBlockProps> = ({ title, highlighted, quote, callToAc
         </h1>
       </div>
       <div className="call-to-action-quote">
-        <span>{quote}</span>
-        <span>{callToAction}</span>
+        <span className="quote-text">{quote}</span>
+        <LinkButton text={callToAction} link="/" style="secondary"></LinkButton>
       </div>
     </div>
   </div>
