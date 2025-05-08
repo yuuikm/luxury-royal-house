@@ -2,7 +2,6 @@ import type { FC } from 'react';
 import { useTranslation } from 'react-i18next';
 import IntroSection from 'components/IntroSection';
 import ActionBlock from 'components/shared/ActionBlock';
-import Slider from 'components/Slider';
 import BottomBanner from 'components/shared/BottomBanner';
 
 const App: FC = () => {
@@ -10,7 +9,6 @@ const App: FC = () => {
 
   return (
     <>
-      <Slider />
       <IntroSection />
       <ActionBlock
         title={t('callToActionHome.title')}

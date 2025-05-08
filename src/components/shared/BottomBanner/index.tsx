@@ -21,7 +21,7 @@ const BottomBanner: FC<BottomBannerProps> = ({ title, buttonText }) => {
         </div>
         <div className="btm-banner-image-wrapper">
           <img className="btm-banner-logo" src={LRHLogo} alt={LRHLogo} />
-          <img src={BottomBannerImg} alt={BottomBannerImg} />
+          <img className="btm-banner-image" src={BottomBannerImg} alt={BottomBannerImg} />
         </div>
       </div>
     </div>

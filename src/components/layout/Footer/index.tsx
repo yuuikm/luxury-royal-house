@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useFooterMenu } from 'components/layout/Footer/config';
 import { useTranslation } from 'react-i18next';
 import LinkButton from 'components/shared/LinkButton';
+import Socials from 'components/shared/Socials';
 
 const Footer: FC = () => {
   const footerMenu = useFooterMenu();
@@ -19,6 +20,7 @@ const Footer: FC = () => {
               {t('footer.phone')}
             </a>
             <p className="footer-address">{t('footer.address')}</p>
+            <Socials />
             <LinkButton text={t('footer.buttonText')} link="/" style="secondary" />
           </div>
           <div className="footer-nav">
