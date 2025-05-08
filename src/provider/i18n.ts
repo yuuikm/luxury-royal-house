@@ -29,6 +29,25 @@ const resources = {
         yearsText: 'Years of experience',
         buttonText: 'Contact us to create your ideal space!',
       },
+      callToActionHome: {
+        highlighted: 'A company ',
+        title: 'that has been specializing in premium repair work for over 22 years.',
+        quote: 'Luxurious interior design for your home.',
+        callToAction: 'OUR WORKS',
+      },
+      bottomBannerHome: {
+        title: 'Your Vision, Our Masterpiece',
+        buttonText: 'REQUEST A QUOTE',
+      },
+      footer: {
+        title: 'Need help?',
+        phone: '056 656 0888',
+        address:
+          "Iris Bay Tower, 145 Al Mustaqbal Street, Business Bay, Za'abeel, Dubai, 29th Floor",
+        buttonText: 'CONTACT US',
+        credits: '©2024 - 2025 | All Rights Reserved',
+        usefulLinks: 'Useful links',
+      },
     },
   },
   ru: {
@@ -52,7 +71,16 @@ const resources = {
         yearsText: 'Года опыта',
         buttonText: 'Свяжитесь с нами!',
       },
-      callToActionHome: {},
+      callToActionHome: {
+        highlighted: 'Компания, ',
+        title: 'которая специализируется на ремонтных работах премиум-класса более 22 лет.',
+        quote: 'Роскошный интерьер вашего дома.',
+        callToAction: 'НАШИ РАБОТЫ',
+      },
+      bottomBannerHome: {
+        title: 'Ваше видение — наше произведение искусства',
+        buttonText: 'ЗАПРОСИТЬ СМЕТУ',
+      },
     },
   },
 };
