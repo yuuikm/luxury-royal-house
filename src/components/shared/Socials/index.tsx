@@ -8,13 +8,13 @@ const Socials: FC = () => {
   return (
     <div className="socials">
       <span className="social-icon">
-        <a href={LINKS.facebookLink}>
-          <FacebookIcon width={24} height={24} />
+        <a href={LINKS.facebookLink} className="icon-link">
+          <FacebookIcon width={15} height={15} className="social-svg" />
         </a>
       </span>
       <span className="social-icon">
-        <a href={LINKS.facebookLink}>
-          <InstagramIcon width={24} height={24} />
+        <a href={LINKS.facebookLink} className="icon-link">
+          <InstagramIcon width={24} height={24} className="social-svg" />
         </a>
       </span>
     </div>
