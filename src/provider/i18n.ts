@@ -48,6 +48,15 @@ const resources = {
         credits: '©2024 - 2025 | All Rights Reserved',
         usefulLinks: 'Useful links',
       },
+      contacts: {
+        socialTitle: 'Social media',
+        addressTitle: 'Address',
+        emailTitle: 'Email',
+        contactFormTitle: 'Have a question? Write to us!',
+        address:
+          "Iris Bay Tower, 145 Al Mustaqbal Street, Business Bay, Za'abeel, Dubai, 29th Floor",
+        email: 'info@luxuryroyalhouse.ae',
+      },
     },
   },
   ru: {

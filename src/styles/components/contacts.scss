@@ -1,3 +1,55 @@
 .contacts-bg {
   background-color: $c-contacts-bg;
 }
+
+.flex-1of3 {
+  flex: 1 1 calc(100% / 3 - 20px);
+  border: 1px solid $c-contacts-border;
+}
+
+.flex-1of2 {
+  flex: 1 1 calc(50% - 20px);
+  border: 1px solid $c-contacts-border;
+}
+
+.flex-70 {
+  flex: 1 1 70%;
+  border: 1px solid $c-contacts-border;
+}
+
+.flex-30 {
+  flex: 1 1 30%;
+  border: 1px solid $c-contacts-border;
+}
+
+.flex-half {
+  flex: 1 1 50%;
+  border: 1px solid $c-contacts-border;
+}
+
+.contacts-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 0;
+
+  .contacts-item-wrapper {
+    padding: 40px;
+    box-sizing: border-box;
+  }
+
+  .contact-item-title {
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: $c-contacts-item-title;
+    padding-bottom: 90px;
+  }
+
+  .contacts-main-title {
+    color: $c-contacts-address-text;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0;
+    font-weight: 400;
+  }
+}

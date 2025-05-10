@@ -7,4 +7,5 @@ export const LINKS = {
   contactLink: '/contacts',
   facebookLink: '#',
   instagramLink: '#',
+  emailLink: 'mailto:info@luxuryroyalhouse.ae',
 };
