@@ -35,6 +35,14 @@
   .contacts-item-wrapper {
     padding: 40px;
     box-sizing: border-box;
+
+    .contact-form-title {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 55px;
+      letter-spacing: -1px;
+      color: $c-contacts-form-title;
+    }
   }
 
   .contact-item-title {

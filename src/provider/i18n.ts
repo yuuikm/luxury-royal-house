@@ -56,6 +56,12 @@ const resources = {
         address:
           "Iris Bay Tower, 145 Al Mustaqbal Street, Business Bay, Za'abeel, Dubai, 29th Floor",
         email: 'info@luxuryroyalhouse.ae',
+        contactError: 'Required field',
+        contactEmailError: 'Invalid email address',
+        contactFirstName: 'First Name',
+        contactLastName: 'Last Name',
+        contactEmail: 'Email Address',
+        contactSubmit: 'Submit',
       },
     },
   },
@@ -89,6 +95,30 @@ const resources = {
       bottomBannerHome: {
         title: 'Ваше видение — наше произведение искусства',
         buttonText: 'ЗАПРОСИТЬ СМЕТУ',
+      },
+      footer: {
+        title: 'Нужна помощь?',
+        phone: '056 656 0888',
+        address:
+          "Iris Bay Tower, 145 Al Mustaqbal Street, Business Bay, Za'abeel, Dubai, 29th Floor",
+        buttonText: 'СВЯЖИТЕСЬ С НАМИ',
+        credits: '©2024 - 2025 | Все права защищены',
+        usefulLinks: 'Полезные ссылки',
+      },
+      contacts: {
+        socialTitle: 'Социальные сети',
+        addressTitle: 'Адресс',
+        emailTitle: 'Email',
+        contactFormTitle: 'Остались вопросы? Напишите нам!',
+        address:
+          "Iris Bay Tower, 145 Al Mustaqbal Street, Business Bay, Za'abeel, Dubai, 29th Floor",
+        email: 'info@luxuryroyalhouse.ae',
+        contactError: 'Это поле обязательное',
+        contactEmailError: 'Неверный email адрес',
+        contactFirstName: 'Имя',
+        contactLastName: 'Фамилия',
+        contactEmail: 'Email адрес',
+        contactSubmit: 'Отправить',
       },
     },
   },

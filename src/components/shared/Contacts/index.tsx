@@ -3,6 +3,7 @@ import { type FC } from 'react';
 import Socials from 'components/shared/Socials';
 import { useTranslation } from 'react-i18next';
 import { LINKS } from 'constants/routes';
+import ContactForm from 'components/shared/Contacts/ContactForm';
 
 const Contacts: FC = () => {
   const { t } = useTranslation();
@@ -34,7 +35,8 @@ const Contacts: FC = () => {
           ></iframe>
         </div>
         <div className="contacts-item-wrapper flex-half">
-          <p className="contact-item-title">{t('contacts.contactFormTitle')}</p>
+          <p className="contact-form-title">{t('contacts.contactFormTitle')}</p>
+          <ContactForm />
         </div>
       </div>
     </div>
