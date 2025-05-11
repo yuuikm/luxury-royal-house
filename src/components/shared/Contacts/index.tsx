@@ -13,7 +13,7 @@ const Contacts: FC = () => {
       <div className="contacts-wrapper">
         <div className="contacts-item-wrapper flex-1of3">
           <p className="contact-item-title">{t('contacts.socialTitle')}</p>
-          <Socials />
+          <Socials style="white" />
         </div>
         <div className="contacts-item-wrapper flex-1of3">
           <p className="contact-item-title">{t('contacts.addressTitle')}</p>

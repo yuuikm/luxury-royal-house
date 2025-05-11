@@ -20,7 +20,7 @@ const Footer: FC = () => {
               {t('footer.phone')}
             </a>
             <p className="footer-address">{t('footer.address')}</p>
-            <Socials />
+            <Socials style="black" />
             <LinkButton text={t('footer.buttonText')} link="/" style="secondary" />
           </div>
           <div className="footer-nav">

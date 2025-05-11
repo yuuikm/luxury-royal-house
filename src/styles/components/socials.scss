@@ -2,6 +2,31 @@
   display: flex;
   gap: 10px;
 
+  &.white .social-icon {
+    color: $c-socials-icon-fill-white;
+
+    .social-svg {
+      color: $c-socials-icon-fill-white;
+      transition: color 0.3s;
+    }
+
+    &:hover {
+      background: $c-socials-icon-hover-bg;
+
+      .social-svg {
+        color: $c-socials-icon-fill-black;
+      }
+    }
+  }
+
+  &.black .social-icon {
+    color: $c-socials-icon-fill-black;
+
+    .social-svg {
+      color: $c-socials-icon-fill-black;
+    }
+  }
+
   .social-icon {
     width: 48px;
     height: 48px;
@@ -13,8 +38,8 @@
     transition: 0.3s;
 
     &:hover {
-    background: $c-socials-icon-hover-bg;
-  }
+      background: $c-socials-icon-hover-bg;
+    }
 
     .icon-link {
       display: flex;
