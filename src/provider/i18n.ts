@@ -1,11 +1,12 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
-const pathLang = window.location.pathname.split('/')[1];
-i18n.init({
-  lng: pathLang || 'en',
-  fallbackLng: 'en',
-});
+const urlLang = window.location.pathname.split('/')[1];
+const supportedLangs = ['en', 'ru'];
+
+const isLangInPath = supportedLangs.includes(urlLang);
+const savedLang = localStorage.getItem('lang') || 'en';
+const defaultLang = isLangInPath ? urlLang : savedLang;
 
 const resources = {
   en: {
@@ -70,6 +71,22 @@ const resources = {
       aboutHeading: {
         highlighted: 'Discover our ',
         title: 'story and creative vision',
+      },
+      portfolioHeading: {
+        highlighted: 'Our projects ',
+        title: 'are your luxury',
+      },
+      offerHeading: {
+        highlighted: 'The art of renovation ',
+        title: 'for luxury living',
+      },
+      galleryHeading: {
+        highlighted: 'Our ',
+        title: 'works',
+      },
+      contactsHeading: {
+        highlighted: 'Contact us ',
+        title: 'to explore opportunities',
       },
     },
   },
@@ -136,17 +153,31 @@ const resources = {
         highlighted: 'Откройте для себя ',
         title: 'нашу историю и творческое видение',
       },
+      portfolioHeading: {
+        highlighted: 'Наши проекты - ',
+        title: 'ваша роскошь',
+      },
+      offerHeading: {
+        highlighted: 'Искусство ремонта ',
+        title: 'для роскошной жизни',
+      },
+      galleryHeading: {
+        highlighted: 'Наши ',
+        title: 'работы',
+      },
+      contactsHeading: {
+        highlighted: 'Свяжитесь с нами, ',
+        title: 'чтобы узнать наши возможности',
+      },
     },
   },
 };
 
 i18n.use(initReactI18next).init({
   resources,
-  lng: 'en',
+  lng: defaultLang,
   fallbackLng: 'en',
-  interpolation: {
-    escapeValue: false,
-  },
+  interpolation: { escapeValue: false },
 });
 
 export default i18n;

@@ -9,18 +9,19 @@ const LanguageSwitcher = () => {
   const currentPath = location.pathname;
   const segments = currentPath.split('/');
   const currentLang = segments[1];
-  const restPath = segments.slice(2).join('/');
 
   const handleLangChange = (newLang: string) => {
-    const cleanRestPath = restPath ? `/${restPath}` : '';
+    localStorage.setItem('lang', newLang);
+    i18n.changeLanguage(newLang);
 
     if (newLang === 'en') {
-      navigate(`${cleanRestPath}` || '/');
+      const newPath = location.pathname.replace(/^\/ru/, '') || '/';
+      navigate(newPath + location.search);
     } else {
-      navigate(`/ru${cleanRestPath}`);
+      if (!location.pathname.startsWith('/ru')) {
+        navigate('/ru' + location.pathname + location.search);
+      }
     }
-
-    i18n.changeLanguage(newLang);
   };
 
   return (

@@ -13,6 +13,7 @@ export default defineConfig({
       assets: path.resolve(__dirname, 'src/assets'),
       constants: path.resolve(__dirname, 'src/constants'),
       provider: path.resolve(__dirname, 'src/provider'),
+      pages: path.resolve(__dirname, 'src/pages'),
     },
   },
 });
