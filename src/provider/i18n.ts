@@ -63,6 +63,10 @@ const resources = {
         contactEmail: 'Email Address',
         contactSubmit: 'Submit',
       },
+      gallery: {
+        title: 'More our works',
+        button: 'View more works',
+      },
     },
   },
   ru: {
@@ -119,6 +123,10 @@ const resources = {
         contactLastName: 'Фамилия',
         contactEmail: 'Email адрес',
         contactSubmit: 'Отправить',
+      },
+      gallery: {
+        title: 'Больше наших работ',
+        button: 'Смотреть больше',
       },
     },
   },

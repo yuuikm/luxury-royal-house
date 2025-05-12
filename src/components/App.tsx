@@ -4,6 +4,7 @@ import IntroSection from 'components/IntroSection';
 import ActionBlock from 'components/shared/ActionBlock';
 import BottomBanner from 'components/shared/BottomBanner';
 import Contacts from 'components/shared/Contacts';
+import Gallery from 'components/shared/GalleryBlock';
 
 const App: FC = () => {
   const { t } = useTranslation();
@@ -22,6 +23,7 @@ const App: FC = () => {
         title={t('bottomBannerHome.title')}
         buttonText={t('bottomBannerHome.buttonText')}
       />
+      <Gallery />
     </>
   );
 };

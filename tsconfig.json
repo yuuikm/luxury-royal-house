@@ -6,7 +6,8 @@
       "components/*": ["components/*"],
       "assets/*": ["assets/*"],
       "constants/*": ["constants/*"]
-    }
+    },
+    "jsx": "react"
   },
   "files": [],
   "include": ["src"],
