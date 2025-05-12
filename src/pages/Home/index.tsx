@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import IntroSection from 'components/IntroSection';
 import ActionBlock from 'components/shared/ActionBlock';
 import BottomBanner from 'components/shared/BottomBanner';
-import Contacts from 'components/shared/Contacts';
+import Contacts from 'components/shared/ContactsBlock';
 import Gallery from 'components/shared/GalleryBlock';
 
 const Home: FC = () => {
@@ -19,11 +19,11 @@ const Home: FC = () => {
         quote={t('callToActionHome.quote')}
         callToAction={t('callToActionHome.callToAction')}
       />
+      <Gallery />
       <BottomBanner
         title={t('bottomBannerHome.title')}
         buttonText={t('bottomBannerHome.buttonText')}
       />
-      <Gallery />
     </>
   );
 };

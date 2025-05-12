@@ -12,6 +12,7 @@ const Offer: FC = () => {
         title={t('offerHeading.title')}
         highlighted={t('offerHeading.highlighted')}
         style="offer"
+        color="dark"
       />
     </>
   );

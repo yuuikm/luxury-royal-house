@@ -3,9 +3,9 @@ import { type FC } from 'react';
 import Socials from 'components/shared/Socials';
 import { useTranslation } from 'react-i18next';
 import { LINKS } from 'constants/routes';
-import ContactForm from 'components/shared/Contacts/ContactForm';
+import ContactForm from 'components/shared/ContactsBlock/ContactForm';
 
-const Contacts: FC = () => {
+const ContactsBlock: FC = () => {
   const { t } = useTranslation();
 
   return (
@@ -43,4 +43,4 @@ const Contacts: FC = () => {
   );
 };
 
-export default Contacts;
+export default ContactsBlock;
