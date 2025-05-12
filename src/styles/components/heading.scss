@@ -1,0 +1,35 @@
+.heading-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 650px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+
+  .heading-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+    .heading-overlay {
+      background-color: $c-heading-wrapper-bg;
+      padding: 55px;
+      flex-basis: 40%;
+
+      .heading-title {
+        font-size: 42px;
+        font-weight: 700;
+        color: $c-heading-title-text;
+
+        .heading-highlighted-title {
+          color: $c-heading-text-highlight;
+        }
+      }
+    }
+  }
+}
+
+
+.about-us {
+  background-image: url(assets/images/about-bg.webp);
+}

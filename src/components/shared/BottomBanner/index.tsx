@@ -2,7 +2,6 @@
 import { type FC } from 'react';
 import SmTitle from 'components/shared/SmTitle';
 import LinkButton from 'components/shared/LinkButton';
-import BottomBannerImg from 'assets/images/architect6-cta-pic2.webp';
 import LRHLogo from 'assets/images/circle_logo.webp';
 
 type BottomBannerProps = {
@@ -21,7 +20,6 @@ const BottomBanner: FC<BottomBannerProps> = ({ title, buttonText }) => {
         </div>
         <div className="btm-banner-image-wrapper">
           <img className="btm-banner-logo" src={LRHLogo} alt={LRHLogo} />
-          <img className="btm-banner-image" src={BottomBannerImg} alt={BottomBannerImg} />
         </div>
       </div>
     </div>

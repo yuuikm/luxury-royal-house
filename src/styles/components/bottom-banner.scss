@@ -5,7 +5,7 @@
   padding: 50px 0;
 
   .btm-banner-text-wrapper {
-    flex-basis: 30%;
+    flex-basis: 40%;
 
     .btm-banner-title{
       font-size: 48px;
@@ -15,15 +15,7 @@
   }
 
   .btm-banner-image-wrapper {
-    position: relative;
 
-    .btm-banner-logo {
-      position: absolute;
-      right: 0;
-    }
-
-    .btm-banner-image {
-      bottom: 0;
-    }
+    .btm-banner-logo {}
   }
  }

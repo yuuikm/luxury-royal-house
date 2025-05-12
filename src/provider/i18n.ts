@@ -67,6 +67,10 @@ const resources = {
         title: 'More our works',
         button: 'View more works',
       },
+      aboutHeading: {
+        highlighted: 'Discover our ',
+        title: 'story and creative vision',
+      },
     },
   },
   ru: {
@@ -127,6 +131,10 @@ const resources = {
       gallery: {
         title: 'Больше наших работ',
         button: 'Смотреть больше',
+      },
+      aboutHeading: {
+        highlighted: 'Откройте для себя ',
+        title: 'нашу историю и творческое видение',
       },
     },
   },

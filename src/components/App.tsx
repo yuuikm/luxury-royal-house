@@ -5,12 +5,18 @@ import ActionBlock from 'components/shared/ActionBlock';
 import BottomBanner from 'components/shared/BottomBanner';
 import Contacts from 'components/shared/Contacts';
 import Gallery from 'components/shared/GalleryBlock';
+import Heading from 'components/shared/Heading';
 
 const App: FC = () => {
   const { t } = useTranslation();
 
   return (
     <>
+      <Heading
+        title={t('aboutHeading.title')}
+        highlighted={t('aboutHeading.highlighted')}
+        style="about-us"
+      />
       <IntroSection />
       <Contacts />
       <ActionBlock
