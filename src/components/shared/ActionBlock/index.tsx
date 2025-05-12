@@ -2,6 +2,7 @@
 import { type FC } from 'react';
 import SmTitle from 'components/shared/SmTitle';
 import LinkButton from 'components/shared/LinkButton';
+import { LINKS } from 'constants/routes';
 
 type ActionBlockProps = {
   title: string;
@@ -22,7 +23,7 @@ const ActionBlock: FC<ActionBlockProps> = ({ title, highlighted, quote, callToAc
       </div>
       <div className="call-to-action-quote">
         <span className="quote-text">{quote}</span>
-        <LinkButton text={callToAction} link="/" style="secondary"></LinkButton>
+        <LinkButton text={callToAction} link={LINKS.portfolioLink} style="secondary"></LinkButton>
       </div>
     </div>
   </div>

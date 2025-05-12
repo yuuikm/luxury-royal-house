@@ -11,7 +11,7 @@ const Gallery: FC = () => {
       <Heading
         title={t('galleryHeading.title')}
         highlighted={t('galleryHeading.highlighted')}
-        style="about-us"
+        style="gallery"
       />
     </>
   );

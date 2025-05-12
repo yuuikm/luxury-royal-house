@@ -11,7 +11,7 @@ const Contacts: FC = () => {
       <Heading
         title={t('contactsHeading.title')}
         highlighted={t('contactsHeading.highlighted')}
-        style="about-us"
+        style="contacts"
       />
     </>
   );

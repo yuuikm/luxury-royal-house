@@ -11,7 +11,7 @@ const Offer: FC = () => {
       <Heading
         title={t('offerHeading.title')}
         highlighted={t('offerHeading.highlighted')}
-        style="about-us"
+        style="offer"
       />
     </>
   );

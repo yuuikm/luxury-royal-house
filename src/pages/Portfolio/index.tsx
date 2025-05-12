@@ -11,7 +11,7 @@ const Portfolio: FC = () => {
       <Heading
         title={t('portfolioHeading.title')}
         highlighted={t('portfolioHeading.highlighted')}
-        style="about-us"
+        style="portfolio"
       />
     </>
   );

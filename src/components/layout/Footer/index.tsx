@@ -5,6 +5,7 @@ import { useFooterMenu } from 'components/layout/Footer/config';
 import { useTranslation } from 'react-i18next';
 import LinkButton from 'components/shared/LinkButton';
 import Socials from 'components/shared/Socials';
+import { LINKS } from 'constants/routes';
 
 const Footer: FC = () => {
   const footerMenu = useFooterMenu();
@@ -21,7 +22,7 @@ const Footer: FC = () => {
             </a>
             <p className="footer-address">{t('footer.address')}</p>
             <Socials style="black" />
-            <LinkButton text={t('footer.buttonText')} link="/" style="secondary" />
+            <LinkButton text={t('footer.buttonText')} link={LINKS.contactLink} style="secondary" />
           </div>
           <div className="footer-nav">
             <p className="useful-links-title">{t('footer.usefulLinks')}</p>

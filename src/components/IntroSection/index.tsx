@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import { useIntroSectionCounter } from 'components/IntroSection/config.ts';
 import CountUp from 'react-countup';
 import LinkButton from 'components/shared/LinkButton';
+import { LINKS } from 'constants/routes';
 
 const IntroSection: FC = () => {
   const { t } = useTranslation();
@@ -29,7 +30,7 @@ const IntroSection: FC = () => {
               </div>
             ))}
           </div>
-          <LinkButton text={t('intro.buttonText')} link="/" style="secondary" />
+          <LinkButton text={t('intro.buttonText')} link={LINKS.contactLink} style="secondary" />
         </div>
       </div>
     </div>
