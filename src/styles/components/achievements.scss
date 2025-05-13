@@ -1,0 +1,30 @@
+.achievements-bg {
+  background-color: $c-achievements-bg;
+}
+
+.achievements-wrapper {
+  display: flex;
+  padding: 50px 0;
+  justify-content: space-between;
+
+  .achievements-item {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    border: 1px solid $c-achievements-item-border;
+    flex-basis: calc(100% / 3);
+    box-sizing: border-box;
+
+    .achievements-number {
+      color: $c-achievements-number-text;
+      font-size: 60px;
+      font-weight: 700;
+    }
+
+    .achievements-label {
+      color: $c-achievements-label-text;
+      font-size: 12px;
+      margin-bottom: 120px;
+    }
+  }
+}

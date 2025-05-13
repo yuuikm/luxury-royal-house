@@ -3,6 +3,8 @@ import { type FC } from 'react';
 import Heading from 'components/shared/Heading';
 import { useTranslation } from 'react-i18next';
 import BottomBanner from 'components/shared/BottomBanner';
+import ActionBlock from 'components/shared/ActionBlock';
+import Achievements from 'components/shared/Achievements';
 
 const About: FC = () => {
   const { t } = useTranslation();
@@ -10,10 +12,17 @@ const About: FC = () => {
   return (
     <>
       <Heading
-        title={t('aboutHeading.title')}
-        highlighted={t('aboutHeading.highlighted')}
+        title={t('aboutPage.title')}
+        highlighted={t('aboutPage.highlighted')}
         style="about-us"
       />
+      <ActionBlock
+        title={t('aboutPage.actionBlockTitle')}
+        highlighted={t('aboutPage.actionBlockHighlighted')}
+        quote={t('callToActionHome.quote')}
+        callToAction={t('callToActionHome.callToAction')}
+      />
+      <Achievements />
       <BottomBanner
         title={t('bottomBannerHome.title')}
         buttonText={t('bottomBannerHome.buttonText')}

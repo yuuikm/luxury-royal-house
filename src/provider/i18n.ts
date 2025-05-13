@@ -68,9 +68,21 @@ const resources = {
         title: 'More our works',
         button: 'View more works',
       },
-      aboutHeading: {
+      aboutPage: {
         highlighted: 'Discover our ',
         title: 'story and creative vision',
+        actionBlockHighlighted: 'Our mission ',
+        actionBlockTitle:
+          'is to create interiors that reflect individuality and high status, without losing quality.',
+        actionBlockCallToAction: 'Our portfolio',
+      },
+      achievements: {
+        projectsLabel: 'Completed projects',
+        projectsNumber: '500',
+        customersLabel: 'Satisfied customers',
+        customersNumber: '100',
+        yearsLabel: 'Years of experience',
+        yearsNumber: '22',
       },
       portfolioHeading: {
         highlighted: 'Our projects ',
@@ -149,9 +161,21 @@ const resources = {
         title: 'Больше наших работ',
         button: 'Смотреть больше',
       },
-      aboutHeading: {
+      aboutPage: {
         highlighted: 'Откройте для себя ',
         title: 'нашу историю и творческое видение',
+        actionBlockHighlighted: 'Наша миссия – ',
+        actionBlockTitle:
+          'создавать интерьеры, отражающие индивидуальность и высокий статус, не теряя при этом качества.',
+        actionBlockCallToAction: 'Наше портфолио',
+      },
+      achievements: {
+        projectsLabel: 'Успешных проектов',
+        projectsNumber: '500',
+        customersLabel: 'Довольных клиентов',
+        customersNumber: '100',
+        yearsLabel: 'Опыт работы',
+        yearsNumber: '22',
       },
       portfolioHeading: {
         highlighted: 'Наши проекты - ',
