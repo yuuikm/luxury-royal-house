@@ -7,13 +7,16 @@ $c-white: #ffffff;
 $c-white-2: #F5F3EF;
 $c-gold-1: #d9ba53;
 $c-gold-2: #cba51b;
+$c-gold-3: #D4AF37;
 $c-grey-1: #48494A;
 $c-grey-2: #8D9691;
 
 $c-header-bg: $c-black;
 $c-header-text: $c-white;
 
-$c-small-title-text: $c-black-2;
+$c-small-title-text-dark: $c-black-2;
+$c-small-title-text-light: $c-grey-2;
+$c-small-title-text-gold: $c-gold-3;
 
 $c-intro-title-text: $c-black-2;
 $c-intro-second-title-text: $c-black-2;
@@ -71,3 +74,5 @@ $c-achievements-bg: $c-white-2;
 $c-achievements-label-text: $c-grey-2;
 $c-achievements-number-text: $c-black-3;
 $c-achievements-item-border: $c-grey-2;
+
+$c-about-block-bg: $c-black-5;

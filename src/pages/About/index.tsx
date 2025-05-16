@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import BottomBanner from 'components/shared/BottomBanner';
 import ActionBlock from 'components/shared/ActionBlock';
 import Achievements from 'components/shared/Achievements';
+import AboutBlock from 'components/AboutBlock';
 
 const About: FC = () => {
   const { t } = useTranslation();
@@ -23,6 +24,7 @@ const About: FC = () => {
         callToAction={t('callToActionHome.callToAction')}
       />
       <Achievements />
+      <AboutBlock />
       <BottomBanner
         title={t('bottomBannerHome.title')}
         buttonText={t('bottomBannerHome.buttonText')}

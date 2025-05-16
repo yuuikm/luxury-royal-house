@@ -1,7 +1,18 @@
 .small-title{
   font-size: 12px;
   font-weight: 500;
-  color: $c-small-title-text;
   letter-spacing: 1px;
   padding-bottom: 24px;
+}
+
+.small-title-dark {
+  color: $c-small-title-text-dark;
+}
+
+.small-title-light {
+  color: $c-small-title-text-light;
+}
+
+.small-title-gold {
+  color:$c-small-title-text-gold;
 }

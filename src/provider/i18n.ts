@@ -75,6 +75,8 @@ const resources = {
         actionBlockTitle:
           'is to create interiors that reflect individuality and high status, without losing quality.',
         actionBlockCallToAction: 'Our portfolio',
+        aboutBlockTitle:
+          'A company that has been specializing in premium repair work for over 22 years',
       },
       achievements: {
         projectsLabel: 'Completed projects',
@@ -168,6 +170,8 @@ const resources = {
         actionBlockTitle:
           'создавать интерьеры, отражающие индивидуальность и высокий статус, не теряя при этом качества.',
         actionBlockCallToAction: 'Наше портфолио',
+        aboutBlockTitle:
+          'Компания, которая специализируется на ремонтных работах премиум-класса более 22 лет.',
       },
       achievements: {
         projectsLabel: 'Успешных проектов',
