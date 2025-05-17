@@ -77,6 +77,11 @@ const resources = {
         actionBlockCallToAction: 'Our portfolio',
         aboutBlockTitle:
           'A company that has been specializing in premium repair work for over 22 years',
+        aboutBlockSubtitle:
+          'We offer a full range of services: from the development of an individual project to its turnkey implementation.',
+        aboutBlockExperience: '22 years of experience',
+        aboutBlockExperienceText:
+          'During this time, we have successfully completed more than 500 unique projects, each of which has become the embodiment of impeccable quality, style and modern design',
       },
       achievements: {
         projectsLabel: 'Completed projects',
@@ -172,6 +177,8 @@ const resources = {
         actionBlockCallToAction: 'Наше портфолио',
         aboutBlockTitle:
           'Компания, которая специализируется на ремонтных работах премиум-класса более 22 лет.',
+        aboutBlockSubtitle:
+          'Мы предлагаем полный спектр услуг: от разработки индивидуального проекта до его реализации «под ключ».',
       },
       achievements: {
         projectsLabel: 'Успешных проектов',
