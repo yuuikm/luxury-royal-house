@@ -82,6 +82,12 @@ const resources = {
         aboutBlockExperience: '22 years of experience',
         aboutBlockExperienceText:
           'During this time, we have successfully completed more than 500 unique projects, each of which has become the embodiment of impeccable quality, style and modern design',
+        aboutActivityTitle: 'Our area of activity',
+        aboutActivityDescription:
+          'We work with objects of any complexity: from apartments and houses to luxury villas and commercial real estate.',
+        aboutMissionTitle: 'Our mission',
+        aboutMissionDescription:
+          'Our mission is to transform your home or office into a unique space that combines functionality, aesthetics and comfort',
       },
       achievements: {
         projectsLabel: 'Completed projects',

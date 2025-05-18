@@ -4,9 +4,10 @@
 
 .about-block-wrapper {
   display: flex;
+  flex-wrap: wrap;
 
   .about-block-one-third {
-    width: 33.333%;
+    width: 28%;
     padding: 150px 35px;
   }
 

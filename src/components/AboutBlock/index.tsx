@@ -22,6 +22,20 @@ const AboutBlock: FC = () => {
           <p className="about-block-description">{t('aboutPage.aboutBlockExperienceText')}</p>
           <Socials style="white" />
         </div>
+        <div className="about-block-one-third"></div>
+        <div className="about-block-one-third">
+          <h4 className="about-block-experience-title">{t('aboutPage.aboutActivityTitle')}</h4>
+          <SmTitle color="gold" />
+          <p className="about-block-description">{t('aboutPage.aboutActivityDescription')}</p>
+        </div>
+        <div className="about-block-one-third about-block-bg-img"></div>
+        <div className="about-block-one-third"></div>
+        <div className="about-block-one-third about-block-bg-img"></div>
+        <div className="about-block-one-third">
+          <h4 className="about-block-experience-title">{t('aboutPage.aboutMissionTitle')}</h4>
+          <SmTitle color="gold" />
+          <p className="about-block-description">{t('aboutPage.aboutMissionDescription')}</p>
+        </div>
       </div>
     </div>
   );
